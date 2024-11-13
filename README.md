@@ -51,7 +51,7 @@ console.log(sayPratham);
 
 
 <br><p align="center">
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pratham-developer&exclude_repo=Space_Catalogue,Jupyter_Python&langs_count=4&theme=date_night)](https://github.com/pratham-developer)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pratham-developer&exclude_repo=Space_Catalogue,Jupyter_Python&langs_count=4&theme=github)](https://github.com/pratham-developer)
 </p>
 
 <br><p align="center">
