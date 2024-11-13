@@ -1,4 +1,6 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,1,5,12,21&text=Hello!&height=150&animation=fadeIn&fontSize=75)
+<br><p align="center">
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&text=Hello!&height=150&animation=fadeIn&fontSize=75)
+</p>
 <p align="center">
   <a href="https://www.linkedin.com/in/pratham-khanduja"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="linkedin" width="45" height="45"/></a>
   <a href = "https://www.instagram.com/say.pratham?igsh=MWFyM2J2N3lwOXRyZw=="><img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="insta" width="45" height="45"/></a>
@@ -8,27 +10,29 @@
 </p>
 <br>
 <h2> 🚀 &nbsp;About Me</h2>
+<br>
 
 ```typescript
 const sayPratham = {
     name: "Pratham Khanduja",
-    location: "Himachal Pradesh",
-    college: "VIT Vellore",
+    location: "Himachal Pradesh, India",
     education: {
+        college: "VIT Vellore",
         degree: "B.Tech CSE",
         graduationYear: 2027
     },
-    experience: {
+    skills: {
         androidDevelopment: ["Kotlin","Java"],
         backendDevelopment: ["Node.js","Express.js"],
         dsa: ["C","C++"]
-    }
+    },
 };
 
 console.log(sayPratham);
 ```
 <br>
 <h2> 🚀 &nbsp;Some Tools I Have Used and Learned</h2>
+<br>
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" alt="android" width="45" height="45"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="java" width="45" height="45"/>
@@ -48,7 +52,9 @@ console.log(sayPratham);
 
 
 <br><p align="center">
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pratham-developer&layout=compact&exclude_repo=Space_Catalogue,Jupyter_Python&langs_count=4&theme=default)](https://github.com/pratham-developer)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pratham-developer&exclude_repo=Space_Catalogue,Jupyter_Python&langs_count=4&theme=date_night)](https://github.com/pratham-developer)
 </p>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,1,5,12,21&section=footer)
+<br><p align="center">
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&section=footer)
+</p>
