@@ -10,7 +10,6 @@
 </p>
 <br>
 <h2> 🚀 &nbsp;About Me</h2>
-<br>
 
 ```typescript
 const sayPratham = {
