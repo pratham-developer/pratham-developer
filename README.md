@@ -24,7 +24,7 @@ const sayPratham = {
         androidDevelopment: ["Kotlin","Java"],
         backendDevelopment: ["Node.js","Express.js"],
         dsa: ["C","C++"]
-    },
+    }
 };
 
 console.log(sayPratham);
