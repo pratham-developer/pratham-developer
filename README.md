@@ -1,5 +1,5 @@
 <br><p align="center">
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&text=Hello!&height=150&animation=fadeIn&fontSize=75)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&text=Hello!&height=200&animation=fadeIn&fontSize=75)
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/pratham-khanduja"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="linkedin" width="64" height="64"/></a>
@@ -51,9 +51,9 @@ console.log(sayPratham);
 
 
 <br><p align="center">
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pratham-developer&exclude_repo=Space_Catalogue,Jupyter_Python&langs_count=4&theme=github)](https://github.com/pratham-developer)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pratham-developer&exclude_repo=Space_Catalogue,Jupyter_Python&langs_count=4&theme=github_dark)](https://github.com/pratham-developer)
 </p>
 
 <br><p align="center">
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&height=150&animation=fadeIn&fontSize=75&section=footer)
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&height=200&animation=fadeIn&fontSize=75&section=footer)
 </p>
