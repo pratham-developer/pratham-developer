@@ -18,7 +18,7 @@ const sayPratham = {
     education: {
         college: "VIT Vellore",
         degree: "B.Tech CSE",
-        graduationYear: 2027
+        graduationYear: "2027"
     },
     skills: {
         androidDevelopment: ["Kotlin","Java"],
@@ -44,14 +44,6 @@ console.log(sayPratham);
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="64" height="64"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="python" width="64" height="64"/>
 
-</p>
-
-<br>
-<h2> 🚀 &nbsp;GitHub Stats</h2>
-
-
-<br><p align="center">
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=pratham-developer&exclude_repo=Space_Catalogue,Jupyter_Python&langs_count=4&theme=github_dark)](https://github.com/pratham-developer)
 </p>
 
 <br><p align="center">
