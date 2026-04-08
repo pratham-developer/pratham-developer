@@ -1,5 +1,5 @@
 <br><p align="center">
-[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0f2e,50:2d1b4e,100:1a0f2e&height=200&section=header&text=Pratham%20Khanduja&fontSize=55&fontColor=f0f0f5&animation=fadeIn&fontAlignY=50)](https://github.com/pratham-developer)
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0f2e,50:2d1b4e,100:1a0f2e&height=180&section=header&text=Pratham%20Khanduja&fontSize=55&fontColor=f0f0f5&animation=fadeIn&fontAlignY=50)](https://github.com/pratham-developer)
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/pratham-khanduja"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="linkedin" width="48" height="48" style="margin:8px;"/></a>
@@ -10,24 +10,25 @@
 <h2> 🚀 &nbsp;About Me</h2>
 
 ```java
-package com.github.pratham.dto;
+package com.github.pratham.controller;
 
-import lombok.*;
-import java.util.List;
+import com.github.pratham.dto.Developer;
+import com.github.pratham.service.AboutService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
-@Getter
-@Setter
-@Builder
-@NoArgsConstructor
-@AllArgsConstructor
-public class Developer {
-    private String name;
-    private String location;
-    private String education;
-    private List<String> languages;
-    private List<String> technologies;
-    private List<String> cloudAndTools;
-    private String currentlyLearning;
+@RestController
+@RequestMapping("/about")
+@RequiredArgsConstructor
+public class AboutController {
+
+    private final AboutService aboutService;
+
+    @GetMapping("/me")
+    public ResponseEntity<Developer> getMe() {
+        return ResponseEntity.ok(aboutService.getMe());
+    }
 }
 ```
 
@@ -56,30 +57,6 @@ public class AboutService {
     }
 }
 ```
-
-```java
-package com.github.pratham.controller;
-
-import com.github.pratham.dto.Developer;
-import com.github.pratham.service.AboutService;
-import lombok.RequiredArgsConstructor;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
-@RestController
-@RequestMapping("/about")
-@RequiredArgsConstructor
-public class AboutController {
-
-    private final AboutService aboutService;
-
-    @GetMapping("/me")
-    public ResponseEntity<Developer> getMe() {
-        return ResponseEntity.ok(aboutService.getMe());
-    }
-}
-```
-
 <br>
 <h2> ⚡ &nbsp;Some Tools I Have Used and Learned</h2>
 <br>
