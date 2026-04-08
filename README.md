@@ -1,5 +1,5 @@
 <br><p align="center">
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&text=Pratham%20Khanduja&height=170&animation=fadeIn&fontSize=55)
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0f2e,50:2d1b4e,100:1a0f2e&height=200&section=header&text=Pratham%20Khanduja&fontSize=55&fontColor=f0f0f5&animation=fadeIn&fontAlignY=50)](https://github.com/pratham-developer)
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/pratham-khanduja"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="linkedin" width="48" height="48" style="margin:8px;"/></a>
