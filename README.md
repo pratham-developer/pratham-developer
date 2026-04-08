@@ -1,5 +1,5 @@
 <br><p align="center">
-[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1a0f2e,50:2d1b4e,100:1a0f2e&height=180&section=header&text=Pratham%20Khanduja&fontSize=55&fontColor=f0f0f5&animation=fadeIn&fontAlignY=50)](https://github.com/pratham-developer)
+[![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:1e3a8a&height=180&section=header&text=Pratham%20Khanduja&fontSize=55&fontColor=f8fafc&animation=fadeIn&fontAlignY=50)](https://github.com/pratham-developer)
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/pratham-khanduja"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="linkedin" width="48" height="48" style="margin:8px;"/></a>
@@ -71,9 +71,12 @@ public class AboutService {
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="mongodb" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="mysql" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="postgresql" width="48" height="48" style="margin:8px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="redis" width="48" height="48" style="margin:8px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" alt="rabbitmq" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" alt="supabase" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" alt="firebase" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="c" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="python" width="48" height="48" style="margin:8px;"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="docker" width="48" height="48" style="margin:8px;"/>
 </p>
