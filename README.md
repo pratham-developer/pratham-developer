@@ -1,32 +1,85 @@
 <br><p align="center">
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&text=Hello!&height=150&animation=fadeIn&fontSize=60)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&text=Pratham%20Khanduja&height=170&animation=fadeIn&fontSize=55)
 </p>
 <p align="center">
   <a href="https://www.linkedin.com/in/pratham-khanduja"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="linkedin" width="48" height="48" style="margin:8px;"/></a>
-  <a href = "https://www.instagram.com/say.pratham?igsh=MWFyM2J2N3lwOXRyZw=="><img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="instagram" width="48" height="48" style="margin:8px;"/></a>
+  <a href="https://www.instagram.com/say.pratham?igsh=MWFyM2J2N3lwOXRyZw=="><img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="instagram" width="48" height="48" style="margin:8px;"/></a>
   <a href="mailto:prathk30@gmail.com"><img src="https://img.icons8.com/?size=100&id=EgRndDDLh8kS&format=png&color=000000" alt="mail" width="48" height="48" style="margin:8px;"/></a>
 </p>
 <br>
 <h2> 🚀 &nbsp;About Me</h2>
 
-```typescript
-const pratham = {
-    name: "Pratham Khanduja",
-    location: "Himachal Pradesh, India",
-    education: {
-        college: "VIT Vellore",
-        degree: "B.Tech CSE",
-        graduationYear: "2027"
-    },
-    devSkills: {
-        android: ["Kotlin", "Java"],
-        backend: ["Java", "Spring Boot", "Node.js", "Express.js"],
-        database: ["MongoDB", "MySQL", "PostgreSQL"]
-    }
-};
+```java
+package com.github.pratham.dto;
 
-console.log(pratham);
+import lombok.*;
+import java.util.List;
+
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class Developer {
+    private String name;
+    private String location;
+    private String education;
+    private List<String> languages;
+    private List<String> technologies;
+    private List<String> cloudAndTools;
+    private String currentlyLearning;
+}
 ```
+
+```java
+package com.github.pratham.service;
+
+import com.github.pratham.dto.Developer;
+import org.springframework.stereotype.Service;
+import java.util.List;
+
+@Service
+public class AboutService {
+
+    public Developer getMe() {
+        return Developer.builder()
+            .name("Pratham Khanduja")
+            .location("Himachal Pradesh, India")
+            .education("B.Tech CSE '27 @ VIT Vellore")
+            .languages(List.of("Java", "Kotlin", "Python", "C", "C++", "JavaScript", "SQL"))
+            .technologies(List.of("Spring Boot", "Node.js", "Express.js", "FastAPI",
+                                  "Redis", "RabbitMQ", "PostgreSQL", "MySQL", "MongoDB"))
+            .cloudAndTools(List.of("AWS", "Azure", "Docker", "GitHub Actions",
+                                   "Vercel", "Firebase", "Supabase", "Git", "Linux", "Postman"))
+            .currentlyLearning("production grade backend systems")
+            .build();
+    }
+}
+```
+
+```java
+package com.github.pratham.controller;
+
+import com.github.pratham.dto.Developer;
+import com.github.pratham.service.AboutService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@RequestMapping("/about")
+@RequiredArgsConstructor
+public class AboutController {
+
+    private final AboutService aboutService;
+
+    @GetMapping("/me")
+    public ResponseEntity<Developer> getMe() {
+        return ResponseEntity.ok(aboutService.getMe());
+    }
+}
+```
+
 <br>
 <h2> ⚡ &nbsp;Some Tools I Have Used and Learned</h2>
 <br>
@@ -46,8 +99,4 @@ console.log(pratham);
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="c" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="48" height="48" style="margin:8px;"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="python" width="48" height="48" style="margin:8px;"/>
-</p>
-
-<br><p align="center">
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5&height=150&animation=fadeIn&fontSize=60&section=footer)
 </p>
