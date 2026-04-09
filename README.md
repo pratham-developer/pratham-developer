@@ -13,70 +13,47 @@
 package com.github.pratham.controller;
 
 import com.github.pratham.dto.Developer;
-import com.github.pratham.service.AboutService;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import java.util.List;
 
 @RestController
 @RequestMapping("/about")
-@RequiredArgsConstructor
 public class AboutController {
-
-    private final AboutService aboutService;
 
     @GetMapping("/me")
     public ResponseEntity<Developer> getMe() {
-        return ResponseEntity.ok(aboutService.getMe());
+        return ResponseEntity.ok(
+            Developer.builder()
+                .name("Pratham Khanduja")
+                .location("Himachal Pradesh, India")
+                .education("B.Tech CSE '27 @ VIT Vellore")
+                .languages(List.of("Java", "Kotlin", "Python", "C", "C++", "JavaScript", "SQL"))
+                .technologies(List.of("Spring Boot", "Node.js", "Express.js", "FastAPI",
+                                      "Redis", "RabbitMQ", "PostgreSQL", "MySQL", "MongoDB"))
+                .cloudAndTools(List.of("AWS", "Azure", "Docker", "GitHub Actions",
+                                       "Vercel", "Firebase", "Supabase", "Git", "Linux", "Postman"))
+                .currentlyLearning("production grade backend systems")
+                .build()
+        );
     }
 }
 ```
 
-```java
-package com.github.pratham.service;
-
-import com.github.pratham.dto.Developer;
-import org.springframework.stereotype.Service;
-import java.util.List;
-
-@Service
-public class AboutService {
-
-    public Developer getMe() {
-        return Developer.builder()
-            .name("Pratham Khanduja")
-            .location("Himachal Pradesh, India")
-            .education("B.Tech CSE '27 @ VIT Vellore")
-            .languages(List.of("Java", "Kotlin", "Python", "C", "C++", "JavaScript", "SQL"))
-            .technologies(List.of("Spring Boot", "Node.js", "Express.js", "FastAPI",
-                                  "Redis", "RabbitMQ", "PostgreSQL", "MySQL", "MongoDB"))
-            .cloudAndTools(List.of("AWS", "Azure", "Docker", "GitHub Actions",
-                                   "Vercel", "Firebase", "Supabase", "Git", "Linux", "Postman"))
-            .currentlyLearning("production grade backend systems")
-            .build();
-    }
-}
-```
 <br>
-<h2> ⚡ &nbsp;Some Tools I Have Used and Learned</h2>
-<br>
+<h2> ⚡ &nbsp;My Tech Stack</h2>
+
+<h4 align="center">Languages</h4>
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original.svg" alt="android" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="java" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" alt="spring" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.simpleicons.org/springboot" alt="spring boot" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" alt="kotlin" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="nodejs" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="mongodb" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="mysql" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="postgresql" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="redis" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" alt="rabbitmq" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" alt="supabase" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" alt="firebase" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="c" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="python" width="40" height="40" style="margin:8px;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="docker" width="40" height="40" style="margin:8px;"/>
+  <img src="https://skillicons.dev/icons?i=java,kotlin,py,c,cpp,js" />
+</p>
+
+<h4 align="center">Frameworks & Technologies</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=spring,nodejs,express,fastapi,redis,rabbitmq,postgres,mysql,mongodb" />
+</p>
+
+<h4 align="center">Cloud, DevOps & Tools</h4>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=aws,azure,docker,githubactions,vercel,firebase,supabase,git,linux,postman" />
 </p>
