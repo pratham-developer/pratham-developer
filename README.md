@@ -9,35 +9,23 @@
 <br>
 <h2> 🚀 &nbsp;About Me</h2>
 
-```java
-package com.github.pratham.controller;
+```sql
+SELECT * FROM developers WHERE name = 'Pratham Khanduja';
+```
+```
+┌──────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────┐
+│        field         │                                         value                                              │
+├──────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────┤
+│ name                 │ Pratham Khanduja                                                                           │
+│ location             │ Himachal Pradesh, India                                                                    │
+│ education            │ B.Tech CSE '27 @ VIT Vellore                                                               │
+│ languages            │ {Java, Kotlin, Python, C, C++, JavaScript, SQL}                                            │
+│ technologies         │ {Spring Boot, Node.js, Express.js, FastAPI, Redis, RabbitMQ, PostgreSQL, MySQL, MongoDB}   │
+│ cloud_&_devops       │ {AWS, Azure, Docker, GitHub Actions, Vercel, Firebase, Supabase, Git, Linux, Postman}      │
+│ currently_learning   │ production grade backend systems                                                           │
+└──────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────┘
 
-import com.github.pratham.dto.Developer;
-import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-import java.util.List;
-
-@RestController
-@RequestMapping("/about")
-public class AboutController {
-
-    @GetMapping("/me")
-    public ResponseEntity<Developer> getMe() {
-        return ResponseEntity.ok(
-            Developer.builder()
-                .name("Pratham Khanduja")
-                .location("Himachal Pradesh, India")
-                .education("B.Tech CSE '27 @ VIT Vellore")
-                .languages(List.of("Java", "Kotlin", "Python", "C", "C++", "JavaScript", "SQL"))
-                .technologies(List.of("Spring Boot", "Node.js", "Express.js", "FastAPI",
-                                      "Redis", "RabbitMQ", "PostgreSQL", "MySQL", "MongoDB"))
-                .cloudAndTools(List.of("AWS", "Azure", "Docker", "GitHub Actions",
-                                       "Vercel", "Firebase", "Supabase", "Git", "Linux", "Postman"))
-                .currentlyLearning("production grade backend systems")
-                .build()
-        );
-    }
-}
+(1 row)  |  Query Time: 0.038 ms
 ```
 
 <br>
