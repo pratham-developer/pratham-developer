@@ -13,17 +13,17 @@
 SELECT * FROM developers WHERE name = 'Pratham Khanduja';
 ```
 ```
-┌──────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────┐
-│        field         │                                         value                                              │
-├──────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────┤
-│ name                 │ Pratham Khanduja                                                                           │
-│ location             │ Himachal Pradesh, India                                                                    │
-│ education            │ B.Tech CSE '27 @ VIT Vellore                                                               │
-│ languages            │ {Java, Kotlin, Python, C, C++, JavaScript, SQL}                                            │
-│ technologies         │ {Spring Boot, Node.js, Express.js, FastAPI, Redis, RabbitMQ, PostgreSQL, MySQL, MongoDB}   │
-│ cloud_&_devops       │ {AWS, Azure, Docker, GitHub Actions, Vercel, Firebase, Supabase, Git, Linux, Postman}      │
-│ currently_learning   │ production grade backend systems                                                           │
-└──────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────┘
+┌──────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────┐
+│        field         │                                         value                                            │
+├──────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────┤
+│ name                 │ Pratham Khanduja                                                                         │
+│ location             │ Himachal Pradesh, India                                                                  │
+│ education            │ B.Tech CSE '27 @ VIT Vellore                                                             │
+│ languages            │ {Java, Kotlin, Python, C, C++, JavaScript, SQL}                                          │
+│ technologies         │ {Spring Boot, Node.js, Express.js, FastAPI, Redis, RabbitMQ, PostgreSQL, MySQL, MongoDB} │
+│ cloud_&_devops       │ {AWS, Azure, Docker, GitHub Actions, Vercel, Firebase, Supabase, Git, Linux, Postman}    │
+│ currently_learning   │ production grade backend systems                                                         │
+└──────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────┘
 
 (1 row)  |  Query Time: 0.038 ms
 ```
