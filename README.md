@@ -2,9 +2,11 @@
 [![Header](https://capsule-render.vercel.app/api?type=waving&color=0:1e3a8a,50:2563eb,100:1e3a8a&height=180&section=header&text=Pratham%20Khanduja&fontSize=55&fontColor=f8fafc&animation=fadeIn&fontAlignY=50)](https://github.com/pratham-developer)
 </p>
 <p align="center">
-  <a href="https://www.linkedin.com/in/pratham-khanduja"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="linkedin" width="48" height="48" style="margin:8px;"/></a>
-  <a href="https://www.instagram.com/say.pratham?igsh=MWFyM2J2N3lwOXRyZw=="><img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="instagram" width="48" height="48" style="margin:8px;"/></a>
-  <a href="mailto:prathk30@gmail.com"><img src="https://img.icons8.com/?size=100&id=EgRndDDLh8kS&format=png&color=000000" alt="mail" width="48" height="48" style="margin:8px;"/></a>
+  <a href="https://www.linkedin.com/in/pratham-khanduja"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" width="48"/></a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/say.pratham?igsh=MWFyM2J2N3lwOXRyZw=="><img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" width="48"/></a>
+  &nbsp;&nbsp;
+  <a href="mailto:prathk30@gmail.com"><img src="https://img.icons8.com/?size=100&id=EgRndDDLh8kS&format=png&color=000000" width="48"/></a>
 </p>
 <br>
 <h2> 🚀 &nbsp;About Me</h2>
