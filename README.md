@@ -24,7 +24,7 @@ SELECT * FROM developers WHERE name = 'Pratham Khanduja';
 │ languages            │ {Java, Kotlin, Python, C, C++, JavaScript, SQL}                                          │
 │ technologies         │ {Spring Boot, Node.js, Express.js, FastAPI, Redis, RabbitMQ, PostgreSQL, MySQL, MongoDB} │
 │ cloud_&_devops       │ {AWS, Azure, Docker, GitHub Actions, Vercel, Firebase, Supabase, Git, Linux, Postman}    │
-│ currently_learning   │ production grade backend systems                                                         │
+│ currently_learning   │ distributed systems                                                                      │
 └──────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────┘
 
 (1 row)  |  Query Time: 0.038 ms
